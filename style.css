@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: gold;  
+}
+
+/* Header starts here */
+header {
+    background-color: gold;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Navigation starts here */
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: gold;
+    text-decoration: none;
+    margin: 10px;
+}
+/*Navigation ends here*/
+
+/* Main starts here */
+.container{
+    border: 3px solid black;
+    display: flex;
+    
+    
+}
+
+/* Left container */
+.container-left{
+    border: 3px solid black;
+    margin-right: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1;
+}
+/* Middle container */
+.container-mid{
+    border: 3px solid black;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    height: 100vh;
+}
+/* Right container */
+.container-right{
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1;
+}
+
+/* Main ends here */
+
+/*Previous transactions starts here*/
+.previous-transactions {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: gold;
+    border: 3px solid black;
+    margin-top: 1px;
+    display: flex;
+    flex-direction: column;     
+    align-items: center;
+}
+
+.previous-transactions th {
+    background-color: gold;
+    border: 3px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.previous-transactions td {
+    background-color: gold;
+    border: 3px solid black;
+    padding: 8px;
+    text-align: left;
+}
+/*Previous transactions ends here*/
+
+/*Personal informations starts here*/
+.personal-informations{
+    margin-top: 10px;
+    border: 3px solid black;
+
+}
+.personal-info{
+    padding: 8px;
+    text-align: center;
+}
+/*Personal informations ends here*/
+
+
+/*ınformation starts here*/
+.information{
+    padding: 8px;
+    text-align: center;
+    height: 100vh;
+}
+/*ınformation ends here*/
+
+
+/*credit card starts here*/
+.credit-card{
+    border: 3px solid black;
+    padding: 8px;
+    text-align: center;
+}
+/*credit card ends here*/
+
+
+/*exchange rates starts here*/
+.exchange-rates{
+    margin-top: 2px;
+    border: 3px solid black;
+    padding: 8px;
+    text-align: center;
+}
+/*exchange rates ends here*/
+
+/*links starts here*/
+.links {
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+/*links ends here*/
+
+/* Footer starts here */
+footer {   
+    color: black;
+    text-align: center;
+    
+}
+/* Footer ends here */
+
